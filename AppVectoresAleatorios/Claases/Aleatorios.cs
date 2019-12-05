@@ -8,8 +8,16 @@ namespace AppVectoresAleatorios.Claases
 {
     class Aleatorios
     {
+        
+        int[] regsistro = new int[20];
         Random aleatorio = new Random();
-        int[] regsistro =new int[20]
-
+        private void NumAleatorio()
+        {
+            for(int n = 0 ; n < 20 ; n++)
+            {
+               regsistro[n] = aleatorio.Next(1, 100) + 1;
+                               
+            }            
+        }
     }
 }

@@ -16,5 +16,11 @@ namespace AppVectoresAleatorios
         {
             InitializeComponent();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            this.lstNumeros.Text = 
+                
+        }
     }
 }
